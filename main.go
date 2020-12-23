@@ -18,7 +18,7 @@ func main() {
 			ZipName:       "binaries.zip",
 		},
 		BinaryName: "go-rocket-update-example",
-		Version:    "0.1",
+		Version:    "v0.1",
 	}
 	log.Println(u.Version)
 	err := u.Run()
