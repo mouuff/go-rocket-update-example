@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/mouuff/easy-update/provider"
-	"github.com/mouuff/easy-update/updater"
+	"github.com/mouuff/go-rocket-update/provider"
+	"github.com/mouuff/go-rocket-update/updater"
 )
 
 func main() {
@@ -17,8 +17,8 @@ func main() {
 			RepositoryURL: "github.com/mouuff/go-rocket-update-example",
 			ZipName:       "binaries.zip",
 		},
-		BinaryName: "rocket",
-		Version:    "1.0",
+		BinaryName: "go-rocket-update-example",
+		Version:    "0.1",
 	}
 	log.Println(u.Version)
 	err := u.Run()

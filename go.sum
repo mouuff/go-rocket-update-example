@@ -1,4 +1,4 @@
 github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 h1:iQTw/8FWTuc7uiaSepXwyf3o52HaUYcV+Tu66S3F5GA=
 github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0/go.mod h1:1NbS8ALrpOvjt0rHPNLyCIeMtbizbir8U//inJ+zuB8=
-github.com/mouuff/easy-update v0.0.0-20201223195509-63049979b3a4 h1:E3KuP54NBBOfErVfBDMQXS4zJraOtwNQWHKFR25jUzc=
-github.com/mouuff/easy-update v0.0.0-20201223195509-63049979b3a4/go.mod h1:S+2Mgd0F09hsktp22wfQM27ihallTKtdmrdmxa//1oQ=
+github.com/mouuff/go-rocket-update v0.0.0-20201223223816-316bfb89411c h1:HpMyc6wLzgY0XWyI007Vky1UyQgz9uflBaRECTMWLgM=
+github.com/mouuff/go-rocket-update v0.0.0-20201223223816-316bfb89411c/go.mod h1:CnOyUYCxAJyC1g1mebSGC7gJysLTlX+RpxKgD1B0zLs=
