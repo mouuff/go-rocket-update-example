@@ -12,7 +12,7 @@ func main() {
 	u := &updater.Updater{
 		Provider: &provider.Github{
 			RepositoryURL: "github.com/mouuff/go-rocket-update-example",
-			ZipName:       "binaries" + runtime.GOOS + ".zip",
+			ZipName:       "binaries_" + runtime.GOOS + ".zip",
 		},
 		BinaryName: "go-rocket-update-example",
 		Version:    "v0.2",
