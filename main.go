@@ -1,24 +1,21 @@
 package main
 
 import (
-	"fmt"
 	"log"
+	"runtime"
 
-	"github.com/mouuff/go-rocket-update/provider"
-	"github.com/mouuff/go-rocket-update/updater"
+	"github.com/mouuff/go-rocket-update/pkg/provider"
+	"github.com/mouuff/go-rocket-update/pkg/updater"
 )
 
 func main() {
-
-	fmt.Println(updater.GetPlatformName())
-
 	u := &updater.Updater{
 		Provider: &provider.Github{
 			RepositoryURL: "github.com/mouuff/go-rocket-update-example",
-			ZipName:       "binaries.zip",
+			ZipName:       "binaries" + runtime.GOOS + ".zip",
 		},
 		BinaryName: "go-rocket-update-example",
-		Version:    "v0.1",
+		Version:    "v0.2",
 	}
 	log.Println(u.Version)
 	err := u.Run()
