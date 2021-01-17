@@ -15,10 +15,10 @@ func main() {
 			ZipName:       "binaries_" + runtime.GOOS + ".zip",
 		},
 		BinaryName: "go-rocket-update-example",
-		Version:    "v0.3.1",
+		Version:    "v1.0.0",
 	}
 	log.Println(u.Version)
-	err := u.Run()
+	err := u.Update()
 	if err != nil {
 		log.Fatal(err)
 	}
