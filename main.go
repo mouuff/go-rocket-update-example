@@ -15,7 +15,7 @@ func main() {
 			ZipName:       "binaries_" + runtime.GOOS + ".zip",
 		},
 		ExecutableName: "go-rocket-update-example",
-		Version:        "v1.0.0", // You can change this value to trigger an update
+		Version:        "v1.2.0", // You can change this value to trigger an update
 	}
 	log.Println(u.Version)
 	err := u.Update()
