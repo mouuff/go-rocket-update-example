@@ -18,7 +18,7 @@ func main() {
 		Version:        "v1.2.0", // You can change this value to trigger an update
 	}
 	log.Println(u.Version)
-	err := u.Update()
+	_, err := u.Update()
 	if err != nil {
 		log.Fatal(err)
 	}
