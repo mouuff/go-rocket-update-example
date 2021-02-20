@@ -15,10 +15,10 @@ func main() {
 	u := &updater.Updater{
 		Provider: &provider.Github{
 			RepositoryURL: "github.com/mouuff/go-rocket-update-example",
-			ZipName:       "binaries_" + runtime.GOOS + ".zip",
+			ZipName:       fmt.Sprintf("binaries_%s.zip", runtime.GOOS),
 		},
-		ExecutableName: "go-rocket-update-example",
-		Version:        "v1.3.0", // You can change this value to trigger an update
+		ExecutableName: fmt.Sprintf("go-rocket-update-example_%s_%s", runtime.GOOS, runtime.GOARCH),
+		Version:        "v1.4.0", // You can change this value to trigger an update
 	}
 
 	versionFlag := false
