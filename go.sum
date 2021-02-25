@@ -2,3 +2,5 @@ github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 h1:iQTw/8FWTuc7uia
 github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0/go.mod h1:1NbS8ALrpOvjt0rHPNLyCIeMtbizbir8U//inJ+zuB8=
 github.com/mouuff/go-rocket-update v1.4.0 h1:CrQb5Eivt/S677QK80dMR/ZeN/LEHSmwCbmYBgElMhA=
 github.com/mouuff/go-rocket-update v1.4.0/go.mod h1:CnOyUYCxAJyC1g1mebSGC7gJysLTlX+RpxKgD1B0zLs=
+github.com/mouuff/go-rocket-update v1.5.0 h1:qz+XDJtCjVVNdhEw7xn7K6NB1HieEFIabP1A9wFCv8M=
+github.com/mouuff/go-rocket-update v1.5.0/go.mod h1:CnOyUYCxAJyC1g1mebSGC7gJysLTlX+RpxKgD1B0zLs=
