@@ -18,7 +18,7 @@ func main() {
 			ArchiveName:   fmt.Sprintf("binaries_%s.zip", runtime.GOOS),
 		},
 		ExecutableName: fmt.Sprintf("go-rocket-update-example_%s_%s", runtime.GOOS, runtime.GOARCH),
-		Version:        "v1.5.0", // You can change this value to trigger an update
+		Version:        "v1.5.1", // You can change this value to trigger an update
 	}
 
 	versionFlag := false
